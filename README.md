@@ -31,10 +31,10 @@ This project uses **JSP/Servlets + JDBC**, is built with **Apache Ant**, and can
 
 ```text
 FeedBack App/
-├── db.txt                      # DB notes / credentials reference
-├── feedback_app_jservlet.mp4   # Demo video
+├── db.txt                      
+├── feedback_app_jservlet.mp4   
 └── feedBackApp/
-    ├── build.xml               # Ant build configuration
+    ├── build.xml               
     ├── src/
     │   └── java/
     │       ├── DatabaseConnection.java
@@ -43,9 +43,9 @@ FeedBack App/
     │       ├── editFeedback.java
     │       ├── updateFeedBack.java
     │       └── deleteFeedback.java
-    ├── web/                    # JSP / HTML resources
-    ├── nbproject/              # NetBeans metadata (optional / can ignore)
-    └── build/                  # Generated build output
+    ├── web/                    
+    ├── nbproject/              
+    └── build/                 
 
 ---
 
