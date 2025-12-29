@@ -27,6 +27,9 @@ This project uses **JSP/Servlets + JDBC**, is built with **Apache Ant**, and can
 
 ---
 
+## 📂 Project Structure
+
+```text
 FeedBack App/
 ├── db.txt                      # DB notes / credentials reference
 ├── feedback_app_jservlet.mp4   # Demo video
