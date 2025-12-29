@@ -27,27 +27,22 @@ This project uses **JSP/Servlets + JDBC**, is built with **Apache Ant**, and can
 
 ---
 
-## 📂 Project Structure
 FeedBack App/
-│
-├── db.txt # Database notes / credentials reference
-├── feedback_app_jservlet.mp4 # Demo video
-│
+├── db.txt                      # DB notes / credentials reference
+├── feedback_app_jservlet.mp4   # Demo video
 └── feedBackApp/
-├── build.xml # Ant build configuration
-├── src/
-│ └── java/
-│ ├── DatabaseConnection.java
-│ ├── submitFeedback.java
-│ ├── seeFeedback.java
-│ ├── editFeedback.java
-│ ├── updateFeedBack.java
-│ └── deleteFeedback.java
-│
-├── web/ # JSP / HTML resources
-├── nbproject/ # NetBeans metadata (can be ignored)
-└── build/ # Generated build output
-
+    ├── build.xml               # Ant build configuration
+    ├── src/
+    │   └── java/
+    │       ├── DatabaseConnection.java
+    │       ├── submitFeedback.java
+    │       ├── seeFeedback.java
+    │       ├── editFeedback.java
+    │       ├── updateFeedBack.java
+    │       └── deleteFeedback.java
+    ├── web/                    # JSP / HTML resources
+    ├── nbproject/              # NetBeans metadata (optional / can ignore)
+    └── build/                  # Generated build output
 
 ---
 
