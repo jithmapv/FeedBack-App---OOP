@@ -60,7 +60,7 @@ public class updateFeedBack extends HttpServlet {
             }
             
             out.println("<br/><a href='./seeFeedback'>See all feedbacks</a>");
-            out.println("<br/><br/><a href='./deleteDeedback'>New Feedback</a>");
+            out.println("<br/><br/><a href='index.html'>New Feedback</a>");
             out.println("</body>");
             out.println("</html>");
         }

@@ -1,0 +1,13 @@
+# Database Configuration File
+# Update these values according to your MySQL setup
+# Copy this file and rename to 'db.properties' in the same directory
+
+# Database connection settings
+db.driver=com.mysql.jdbc.Driver
+db.url=jdbc:mysql://localhost:3306/web_db
+db.username=root
+db.password=It20244866@
+
+# Connection pool settings (optional)
+db.maxConnections=10
+db.timeout=30
