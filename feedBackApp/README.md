@@ -81,7 +81,7 @@ String dbUsername = "root";           // Change to your MySQL username
 String dbPassword = "Your_Password";  // Change to your MySQL password
 ```
 
-**Current default password in code: `It20244866@`** - Make sure to update this to match your MySQL root password!
+**Important:** Update the password in the source file to match your MySQL root password before running the application.
 
 ## Project Setup in NetBeans
 
@@ -89,7 +89,7 @@ String dbPassword = "Your_Password";  // Change to your MySQL password
 
 1. Launch NetBeans IDE
 2. Go to **File > Open Project**
-3. Navigate to the project folder: `d:\SLIIIT\SLIIT SEM 3\FeedBack App\feedBackApp`
+3. Navigate to the cloned repository's `feedBackApp` folder
 4. Select the project and click **Open Project**
 
 ### Step 2: Configure GlassFish Server
@@ -156,9 +156,9 @@ Alternatively, if using NetBeans library:
 ### Method 3: Using Ant Build
 
 1. Open terminal/command prompt
-2. Navigate to project directory:
+2. Navigate to the project directory:
    ```bash
-   cd "d:\SLIIIT\SLIIT SEM 3\FeedBack App\feedBackApp"
+   cd feedBackApp
    ```
 3. Build the project:
    ```bash
@@ -252,7 +252,7 @@ feedBackApp/
 
 - **MySQL Database**: `web_db`
 - **MySQL Username**: `root`
-- **MySQL Password**: `It20244866@` (Update this in DatabaseConnection.java!)
+- **MySQL Password**: *(set in `DatabaseConnection.java` — update to match your MySQL password)*
 
 ## Testing the Application
 
